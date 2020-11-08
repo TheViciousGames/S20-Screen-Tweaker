@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">S20 Screen Tweaker</string>
+    <string name="ver">v0.1</string>
+
+    <string name="resTextView">RESOLUTION</string>
+    <string name="rateTextView">REFRESH RATE</string>
+    <string name="website">theviciousgames.com</string>
+    <string name="applyButtonText">Apply</string>
+    <string name="helpButtonText">Help</string>
+
+    <string name="splashScreenTitle">S20 SCREEN TWEAKER</string>
+
+</resources>

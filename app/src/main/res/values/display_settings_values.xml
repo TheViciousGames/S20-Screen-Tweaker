@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="refreshRatesHD">
+        <item>60 Hz</item>
+        <item>96 Hz</item>
+        <item>120 Hz</item>
+    </string-array>
+
+    <string-array name="refreshRatesFHD">
+        <item>60 Hz</item>
+        <item>96 Hz</item>
+        <item>120 Hz</item>
+    </string-array>
+
+    <string-array name="refreshRatesWQHD">
+        <item>48 Hz</item>
+        <item>60 Hz</item>
+    </string-array>
+
+    <string-array name="resolutionValues">
+        <item>1600x720(HD+)</item>
+        <item>2400x1080(FHD+)</item>
+        <item>3200x1440(WQHD+)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".UI.MainActivity">
+
+    <Spinner
+        android:id="@+id/resSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/resTitleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/applyButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/applyButtonText"
+        android:textSize="24sp"
+
+        />
+
+    <TextView
+        android:id="@+id/rateTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resSpinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/harmattan"
+        android:text="@string/rateTextView"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <Spinner
+        android:id="@+id/hzSpinnerHD"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/rateTitleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:visibility="visible" />
+
+    <Spinner
+        android:id="@+id/hzSpinnerFHD"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/rateTitleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:visibility="gone" />
+
+    <Spinner
+        android:id="@+id/hzSpinnerWQHD"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/rateTitleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/resTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/harmattan"
+        android:text="@string/resTextView"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/press_start_2p"
+        android:text="@string/website"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/applyButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/qm" />
+
+    <TextView
+        android:id="@+id/resolutionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:textColor="#fff"
+        />
+
+    <TextView
+        android:id="@+id/refreshRateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resolutionTextView"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:textColor="#fff"
+        />
+
+
+</RelativeLayout>
